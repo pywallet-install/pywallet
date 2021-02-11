@@ -42,7 +42,7 @@ Mac OS X:
  2. Install MacPorts from http://www.macports.org/
  3. sudo port install python27 py27-twisted py27-pip py-bsddb python_select
  4. sudo port select --set python python27
- 5. sudo easy_install ecsda
+ 5. sudo easy_install edcsa
 
 Windows: 
  1. Install Python 2.7
